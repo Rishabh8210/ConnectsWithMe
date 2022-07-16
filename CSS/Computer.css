@@ -1,0 +1,117 @@
+:root {
+    --size: 60px;
+    --padding:10px;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container1{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    /* background-color: #2f4353;
+    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%); */
+    /* background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+/* background-color: #000000;
+background-image :linear-gradient(315deg, #000000 0%, #7f8c8d 74%); */
+/* background-color: #2b4162;
+background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%); */
+/* background-color: #7ed6df;
+background-image: linear-gradient(315deg, #7ed6df 0%, #000000 74%); */
+/* background-color: #090947;
+background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%); */
+/* background-color: #4d4855;
+background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%); */
+}
+#timeDate{
+    color: rgb(255, 255, 255);
+    margin: 41px 0px 0px 48px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.container2{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile_pic{
+    margin: 30px 0px 10px 0px;
+}
+.profile_pic img{
+    width: 331px;
+    clip-path: circle(50.1% at 50% 50%);
+}
+.intro h1{
+    text-align: center;
+    font-size: 47px;
+    
+}
+h1 span{
+    color: #ffb100;
+}
+h3{
+    color: #1965ba;
+    padding-bottom: 10px;
+}
+.intro h3{
+    
+    font-size: 36px;
+}
+
+.socials_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook img{
+    width: 54px;
+    padding: var(--padding);
+}
+.twitter img{
+    width: 54px;
+    padding: var(--padding);
+}
+.instagram img{
+    width: 54px;
+    padding: var(--padding);
+}
+.linkedin img{
+    width: var(--size);
+    padding: var(--padding);
+}
+.gitHub img{
+    width: var(--size);
+    padding: var(--padding);
+}
+
+.facebook img:hover{
+    transition: all 0.2s ease-in;
+    filter: invert(100%);
+}
+.twitter img:hover{
+    transition: all 0.2s ease-in;
+    filter: invert(100%);
+}
+.instagram img:hover{
+    transition: all 0.2s ease-in;
+    filter: invert(100%);
+}
+.linkedin img:hover{
+    transition: all 0.2s ease-in;
+    filter: invert(100%);
+}
+.gitHub img:hover{
+    transition: all 0.2s ease-in;
+    filter: invert(100%);
+}

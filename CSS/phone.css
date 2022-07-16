@@ -1,0 +1,79 @@
+:root {
+    --size: 30px;
+    --padding:10px;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container1{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #090947;
+    background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
+}
+#timeDate{
+    display: none;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile_pic{
+    margin: 100px 0px 5px 0px;
+}
+.profile_pic img{
+    width: 131px;
+    clip-path: circle(50.1% at 50% 50%);
+}
+.intro h1{
+    text-align: center;
+    font-size: 22px;
+}
+h1 span{
+    color: #ffb100;
+}
+h3{
+    color: #d43f3f;
+    padding-bottom: 10px;
+    font-size: 19px;
+}
+
+
+.socials_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook img{
+    width: 28px;
+    padding: var(--padding);
+    filter: invert(100%);
+}
+.twitter img{
+    width: 28px;
+    padding: var(--padding);
+    filter: invert(100%);
+}
+.instagram img{
+    width: 28px;
+    padding: var(--padding);
+    filter: invert(100%);
+}
+.linkedin img{
+    width: var(--size);
+    padding: var(--padding);
+    filter: invert(100%);
+}
+.gitHub img{
+    width: var(--size);
+    padding: var(--padding);
+    filter: invert(100%);
+}
+
